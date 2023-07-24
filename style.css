@@ -1,0 +1,16 @@
+.custom-logo {
+    height: 90px; /* Set your desired height in pixels or any other unit */
+  }
+  #about{
+     font-family: 'Poppins', sans-serif;
+  }
+  @media (max-width: 767px) {
+    .btn-column {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .btn-column .col-md-6 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
